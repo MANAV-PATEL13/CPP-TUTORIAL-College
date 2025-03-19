@@ -25,8 +25,15 @@ int max(int &x, int &y, int &z)
 int main()
 {
      int a, b, c;
-     cout << "Enter number: ";
+     cout << "Enter any 3 number: ";
      cin >> a >> b >> c;
      int max_num = max(a, b, c);
      cout << "The largest number is: " << max_num << endl;
 }
+/*
+
+output :
+Enter any 3 number: 4 14 10
+The largest number is: 14
+
+*/

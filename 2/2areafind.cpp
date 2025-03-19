@@ -54,3 +54,15 @@ int main()
      cout << "The area of circle is : " << obj2.getArea(a) << endl;
      return 0;
 }
+
+/*
+
+output : 
+Enter length for rectangle(square): 4 4
+The area of rectangle(square) is : 16
+Enter hight & base for triangle: 4 10
+The area of triangle is : 20
+Enter radious for circle: 4
+The area of circle is : 50.24
+
+*/
